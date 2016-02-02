@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>HL</title>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>
+	</header>
+
+	<body>
+		<marquee scrollamount="35">
+			<div class="bus_img">
+				<img src="img/new02.png" alt="bus"/>
+			</div>
+
+			<div>
+				<div id="left_wheel">
+					<img id="wheel1" src="img/wheel01.png" alt=""/>
+				</div>
+				<div id="right_wheel">
+					<img id="wheel2" src="img/wheel01.png" alt=""/>
+				</div>
+			</div>
+		</marquee>
+
+		<footer>
+
+		</footer>
+
+		<script>
+			var wheel1RotateObj = new rotationAnimation();
+			var wheel2RotateObj = new rotationAnimation();
+			wheel1RotateObj.animate("wheel1", "ccw");
+			wheel2RotateObj.animate("wheel2", "ccw");
+		</script>
+
+	</body>
+</html>

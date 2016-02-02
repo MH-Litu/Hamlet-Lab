@@ -1,0 +1,30 @@
+body {
+	margin: 0 auto; padding: 0;
+	font-family: impact;
+	position: relative;
+	background: url(img/sky-grass1.jpg) no-repeat 0;
+}
+
+footer {
+}
+
+.bus_img {
+	margin-top: 75px;
+}
+
+#left_wheel {
+	position:absolute;
+   	bottom:0;
+   	margin: 7px 322px;
+}
+
+#right_wheel {
+	position:absolute;
+   	bottom:0;
+   	margin: 7px 684px;
+}
+
+.speech {
+	position: absolute;
+	font-size: 20px;
+}
